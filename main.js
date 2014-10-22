@@ -5,7 +5,7 @@ define(function (require, exports, module) {
 
   LanguageManager.defineLanguage("django", {
       name: "Django",
-      mode: "django",
+      mode: ["django", "text/x-django"],
       fileExtensions: ["html", "htm", "djhtml", "djhtm"],
       blockComment: ["{#", "#}"],
   });
